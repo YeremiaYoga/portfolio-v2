@@ -19,7 +19,7 @@ const dataProject = [
               `,
         framework: "React",
         css: "Tailwind",
-        link:""
+        link:"https://yeremiayoga.vercel.app/"
     },
 ]
 export default dataProject;
