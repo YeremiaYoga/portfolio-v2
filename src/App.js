@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes} from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Homepage from "./pages/HomePage";
+import Designpage from "./pages/DesignPage";
+import Uiuxpage from "./pages/UiuxPage";
+import Projectpage from "./pages/ProjectPage";
+import Certificationpage from "./pages/CertificationPage";
+
+import { AnimatePresence } from "framer-motion";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AnimatePresence initial={true} mode="wait">
+      <div>
+        <Navbar />
+        <div>
+          <Routes>
+            <Route path="/" element={<Homepage />} />
+            <Route path="/design" element={<Designpage />} />
+            <Route path="/uiux" element={<Uiuxpage />} />
+            <Route path="/project" element={<Projectpage />} />
+            <Route path="/certification" element={<Certificationpage />} />
+          </Routes>
+        </div>
+      </div>
+    </AnimatePresence>
   );
 }
 
