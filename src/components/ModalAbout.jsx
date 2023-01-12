@@ -47,12 +47,12 @@ const ModalAbout = (props) => {
                   </div>
                 </div>
                 <div className="">
-                  <p className="sm:w-7/12 text-xl">Hello</p>
+                  <p className=" text-xl">Hello</p>
                   <p>I am Yeremia Adiel Yoga Sasongko</p>
                 </div>
 
                 <div className="pt-5 ">
-                  <h1 className="text-xl">Education</h1>
+                  <h1 className="text-2xl ">Education</h1>
                   <div className="grid md:grid-cols-2">
                   <div className="flex space-x-4">
                     <div>
