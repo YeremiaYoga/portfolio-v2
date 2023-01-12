@@ -26,7 +26,7 @@ const HomePage = () => {
               exit={{ scale: 0 }}
               layout="fill"
               objectFit="cover"
-              className="animate-wiggle hover:z-50 "
+              className="hover:z-50 "
               src={foto}
               alt=""
             />
