@@ -8,7 +8,7 @@ const UiuxPage = () => {
     <div>
       <h1 className="text-center pb-10 text-2xl pt-5">UI/UX</h1>
       <div className="grid gap-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 place-content-center">
-        {uiuxContent.map((item) => {
+        {uiuxContent.slice().reverse().map((item) => {
           return (
             <motion.section
               initial={{ opacity: 0 }}

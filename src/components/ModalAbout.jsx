@@ -51,10 +51,10 @@ const ModalAbout = (props) => {
                   <p>I am Yeremia Adiel Yoga Sasongko</p>
                 </div>
 
-                <div className="pt-5 ">
-                  <h1 className="text-2xl ">Education</h1>
+                <div className="pt-5">
+                  <h1 className="text-2xl pb-3">Education</h1>
                   <div className="grid md:grid-cols-2">
-                  <div className="flex space-x-4">
+                  <div className="flex space-x-4 ">
                     <div>
                       <img
                         src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAA2UlEQVR4nGNgGAVowLp0YoOeb/wfLafA/8g45MBrsnHwgddfgve/7mUgBuj6JWBYTqkDYDhw/xsLgg7QwmI5tRwQcuBV6KgDGHAGvWNgp5ZT4CpCUZB29PX/XQ8//N/78D1eDFKTduwNDRxw7A1tHAADo4lQa6DSgLajv5WWU2DogKUBLafAG7gsHy2ItOiRBmBg5JYDWo6BNwc0EWoTmQ1Hq+OQYdsg0SKyOh6+DoCBUQdoDXQU6NKwYxK87405QQdYl02oxeYIiiw+8PpzyIFX3QQtZxiJAABs9Cdo0Is2rQAAAABJRU5ErkJggg=="

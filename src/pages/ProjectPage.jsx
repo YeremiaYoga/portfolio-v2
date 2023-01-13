@@ -7,7 +7,7 @@ const ProjectPage = () => {
     <div>
       <h1 className="text-center pb-10 text-2xl pt-5">Project</h1>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 place-content-center">
-        {projectContent.map((item) => {
+        {projectContent.slice().reverse().map((item) => {
           return (
             <motion.section
               initial={{ opacity: 0 }}

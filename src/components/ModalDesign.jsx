@@ -11,7 +11,7 @@ const ModalDesign = (props) => {
   useEffect(() => {
     const fetchImages = async () => {
       const imagePromises = detailImages.map((image) =>
-        import(`../assets/design/${image}`)
+        import(`../assets/design/detail/${image}`)
       );
       const imageUrls = await Promise.all(imagePromises);
 
