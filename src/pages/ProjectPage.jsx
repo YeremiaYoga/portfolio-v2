@@ -22,6 +22,7 @@ const ProjectPage = () => {
                   projectLink={item.link}
                   projectFramework={item.framework}
                   projectCss={item.css}
+                  projectType={item.type}
                 />
               </React.Fragment>
             </motion.section>

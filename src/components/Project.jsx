@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 const Project = (props) => {
-  const { projectImage, projectTitle, projectLink,projectFramework,projectCss } = props;
+  const { projectImage, projectTitle, projectLink,projectFramework,projectCss,projectType } = props;
   const [image, setImage] = useState("");
 
   useEffect(() => {
@@ -20,6 +20,7 @@ const Project = (props) => {
           <div className="space-x-1">
           <span className="py-1 px-2 bg-blue-400 rounded-xl text-white text-xs">{projectFramework}</span>
           <span className="py-1 px-2 bg-slate-400 rounded-xl text-white text-xs">{projectCss}</span>
+          <span className="py-1 px-2 bg-slate-400 rounded-xl text-white text-xs">{projectType}</span>
           </div>
          
         </div>
