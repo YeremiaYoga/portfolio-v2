@@ -41,7 +41,7 @@ const frontendContent = [
   {
     id: 1,
     skill: "Vue JS",
-    level: "Intermediate",
+    level: "",
   },
   {
     id: 2,
