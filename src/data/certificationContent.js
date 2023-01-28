@@ -47,6 +47,14 @@ const dataCertif = [
     publisher:"Rakamin Academy",
     link:`https://drive.google.com/file/d/1f3U3EaH_C3bh6mZF4I_2F16rEMuZdD-4/view?usp=sharing`
   },
+  {
+    id: 6,
+    caption: "React + Redux",
+    image: "SololearnReactRedux.jpg",
+    title: "React + Redux Course",
+    publisher:"Sololearn",
+    link:`https://www.sololearn.com/certificates/CT-A2YR3AYF`
+  },
 ];
 
 export default dataCertif;
