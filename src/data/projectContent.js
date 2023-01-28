@@ -3,24 +3,28 @@ const dataProject = [
         id: 1,
         image: "AtmaKoreanBBQ.png",
         title: "Atma Korean Barbeque",
+        type:"Fullstack",
         subTitle: `
-              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+             Atma Korean Barbeque merupakan project yang dibuat untuk menyelesaikan tugas akhir dari mata kuliah perancangan perangkat lunak. Project ini merupakan website yang digunakan untuk mengatur berjalannya Atma Korean Barbeque dari perhitungan stock, pemesanan, pembayaran dan laporan bulanan.
               `,
         framework: "Vue",
         css: "Laravel",
-        type:"Fullstack",
+        backend: "Laravel",
+        database: "MySQL",
         link:"https://github.com/YeremiaYoga/p3l-frontend.git"
     },
     {
         id: 2,
         image: "DmsPalindo.png",
         title: "Document Management System PT Palindo Marine",
+        type:"Fullstack",
         subTitle: `
-              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+             Document Management System PT Palindo Marine merupakan project yang dibuat sebagai topik dari Tugas Akhir / Skripsi. Website ini berfungsi sebagai pengaturan dokumen pada PT Palindo Marine untuk berlangsungnya pembuatan project kapal.
               `,
         framework: "Vue",
-        css: "Laravel",
-        type:"Fullstack",
+        css: "Vuetify",
+        backend: "Laravel",
+        database: "MySQL",
         link:"https://github.com/YeremiaYoga/Backend_dms_palindomarine.git"
     },
    
@@ -28,24 +32,28 @@ const dataProject = [
         id: 3,
         image: "portoV1.png",
         title: "Website Portfolio V1",
+        type:"Frontend",
         subTitle: `
-              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+              portoV1 merupakan website portofolio yang dibuat pertama untuk memberikan informasi dari pembuat.
               `,
         framework: "React",
         css: "Tailwind",
-        type:"Frontend",
+        backend: "-",
+        database: "-",
         link:"https://yays.vercel.app/"
     },
     {
         id: 4,
         image: "portoV2.png",
         title: "Website Portfolio V2",
+        type: "Frontend",
         subTitle: `
-              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+             portoV2 merupakan website portofolio yang dibuat setelah portoV1 untuk memberikan informasi yang lebih lengkap meliputi design, uiux, project dan sertifikat serta tampilan yang lebih sederhana.
               `,
         framework: "React",
+        backend: "-",
         css: "Tailwind",
-        type: "Frontend",
+        database:"-",
         link:"https://yeremiayoga.vercel.app/"
     },
 ]

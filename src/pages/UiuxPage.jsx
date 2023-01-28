@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const UiuxPage = () => {
   return (
     <div>
-      <h1 className="text-center pb-10 text-2xl pt-5">UI/UX</h1>
+      <h1 className="text-center pb-10 text-2xl pt-5"> </h1>
       <div className="grid gap-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 place-content-center">
         {uiuxContent.slice().reverse().map((item) => {
           return (
