@@ -2,17 +2,17 @@ const basicContent = [
   {
     id: 1,
     skill: "HTML",
-    level: "Advanced",
+    level: "",
   },
   {
     id: 2,
     skill: "CSS",
-    level: "Intermediate",
+    level: "",
   },
   {
     id: 3,
     skill: "Javascript",
-    level: "Intermediate",
+    level: "",
   },
 ];
 const designContent = [
@@ -51,17 +51,17 @@ const frontendContent = [
   {
     id: 3,
     skill: "Bootstrap",
-    level: "Intermediate",
+    level: "",
   },
   {
     id: 4,
     skill: "Vuetify",
-    level: "Intermediate",
+    level: "",
   },
   {
     id: 5,
     skill: "Tailwind",
-    level: "Intermediate",
+    level: "",
   },
 ];
 const backendContent = [
