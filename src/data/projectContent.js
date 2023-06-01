@@ -25,7 +25,7 @@ const dataProject = [
         css: "Vuetify",
         backend: "Laravel",
         database: "MySQL",
-        link:"https://github.com/YeremiaYoga/Backend_dms_palindomarine.git"
+        link:"https://github.com/YeremiaYoga"
     },
    
     {
