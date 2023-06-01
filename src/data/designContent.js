@@ -2,8 +2,8 @@ const dataDesign = [
   {
     id: 1,
     caption: "Jogja",
-    image: "dasarJogja.png",
-    hoverImage: "hoverJogja.png",
+    image: "dasarJogja.webp",
+    hoverImage: "hoverJogja.webp",
     detail: {
       title: "Tugu Jogja",
       subTitle: `
@@ -11,43 +11,43 @@ const dataDesign = [
  
       `,
       tools: "Adobe Photoshop",
-      detailImages: ["detailJogja.png", "beforeJogja.png"],
+      detailImages: ["detailJogja.webp", "beforeJogja.webp"],
     },
   },
   {
     id: 2,
     caption: "Watercolor",
-    image: "dasarArt2.png",
-    hoverImage: "hoverArt2.png",
+    image: "dasarArt2.webp",
+    hoverImage: "hoverArt2.webp",
     detail: {
       title: "Watercolor art 1",
       subTitle: "",
       tools: "Adobe Photoshop",
-      detailImages: ["detailArt2.png", "beforeArt2.jpg"],
+      detailImages: ["detailArt2.webp", "beforeArt2.webp"],
     },
   },
   {
     id: 3,
     caption: "Watercolor",
-    image: "dasarArt1.png",
-    hoverImage: "hoverArt1.png",
+    image: "dasarArt1.webp",
+    hoverImage: "hoverArt1.webp",
     detail: {
       title: "Watercolor art 2",
       subTitle: "",
       tools: "Adobe Photoshop",
-      detailImages: ["detailArt1.png", "beforeArt1.jpg"],
+      detailImages: ["detailArt1.webp", "beforeArt1.webp"],
     },
   },
   {
     id: 4,
     caption: "Glasses",
-    image: "dasarKacamata.png",
-    hoverImage: "hoverKacamata.png",
+    image: "dasarKacamata.webp",
+    hoverImage: "hoverKacamata.webp",
     detail: {
       title: "Glasses with instagram like",
       subTitle: "",
       tools: "Adobe Photoshop",
-      detailImages: ["detailKacamata.jpg", "beforeKacamata.png"],
+      detailImages: ["detailKacamata.webp", "beforeKacamata.webp"],
     },
   },
 ];

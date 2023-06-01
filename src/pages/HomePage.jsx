@@ -1,4 +1,4 @@
-import foto from "../assets/home/foto.png";
+import foto from "../assets/home/foto.webp";
 import { motion } from "framer-motion";
 
 const HomePage = () => {

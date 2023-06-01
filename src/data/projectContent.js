@@ -1,7 +1,7 @@
 const dataProject = [
     {
         id: 1,
-        image: "AtmaKoreanBBQ.png",
+        image: "AtmaKoreanBBQ.webp",
         title: "Atma Korean Barbeque",
         type:"Fullstack",
         subTitle: `
@@ -15,7 +15,7 @@ const dataProject = [
     },
     {
         id: 2,
-        image: "DmsPalindo.png",
+        image: "DmsPalindo.webp",
         title: "Document Management System PT Palindo Marine",
         type:"Fullstack",
         subTitle: `
@@ -30,7 +30,7 @@ const dataProject = [
    
     {
         id: 3,
-        image: "portoV1.png",
+        image: "portoV1.webp",
         title: "Website Portfolio V1",
         type:"Frontend",
         subTitle: `
@@ -44,7 +44,7 @@ const dataProject = [
     },
     {
         id: 4,
-        image: "portoV2.png",
+        image: "portoV2.webp",
         title: "Website Portfolio V2",
         type: "Frontend",
         subTitle: `
