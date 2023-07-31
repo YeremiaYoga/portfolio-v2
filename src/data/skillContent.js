@@ -63,6 +63,11 @@ const frontendContent = [
     skill: "Tailwind",
     level: "",
   },
+  {
+    id: 6,
+    skill: "Framework 7",
+    level: "",
+  },
 ];
 const backendContent = [
   {

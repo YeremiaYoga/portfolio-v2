@@ -55,6 +55,22 @@ const dataCertif = [
     publisher:"Sololearn",
     link:`https://www.sololearn.com/certificates/CT-A2YR3AYF`
   },
+  {
+    id: 7,
+    caption: "Javascript",
+    image: "DicodingDasarJavascript.webp",
+    title: "Belajar Dasar Pemprograman JavaScript",
+    publisher:"Dicoding",
+    link:`https://www.dicoding.com/certificates/NVP7O61WGPR0`
+  },
+  {
+    id: 8,
+    caption: "Backend",
+    image: "DicodingBasicBackend.webp",
+    title: "Belajar Membuat Aplikasi Back-End untuk Pemula",
+    publisher:"Dicoding",
+    link:`https://www.dicoding.com/certificates/JMZV98YQOPN9`
+  },
 ];
 
 export default dataCertif;
