@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const ModalProject = (props) => {
   const { open, onClose, detail = {} } = props;
 
-  const { title, subTitle, framework, css, backend, database, link } = detail;
+  const { title, subTitle, language, frontend, css, backend, database, link } = detail;
 
   //   const [images, setImages] = useState([]);
 
@@ -13,9 +13,8 @@ const ModalProject = (props) => {
   };
   return (
     <div
-      className={`z-50 top-0 fixed right-0 ${
-        open ? "block" : "hidden"
-      }  w-screen`}
+      className={`z-50 top-0 fixed right-0 ${open ? "block" : "hidden"
+        }  w-screen`}
     >
       <div className="flex">
         <div
@@ -54,9 +53,10 @@ const ModalProject = (props) => {
             <div className="sm:flex px-14 md:px-12  justify-between">
               <p className="sm:w-7/12">{subTitle}</p>
               <div className="sm:w-4/12 pt-5 sm:pt-0 space-y-1">
-                <p className=" text-slate-500">Framework: {framework}</p>
-                <p className=" text-slate-500">Css Framework: {css}</p>
+                <p className=" text-slate-500">Language: {language}</p>
+                <p className=" text-slate-500">Frontend: {frontend}</p>
                 <p className=" text-slate-500">Backend: {backend}</p>
+                <p className=" text-slate-500">Css Framework: {css}</p>
                 <p className=" text-slate-500">Database: {database}</p>
               </div>
             </div>

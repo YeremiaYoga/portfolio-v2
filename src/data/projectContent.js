@@ -3,44 +3,47 @@ const dataProject = [
         id: 1,
         image: "AtmaKoreanBBQ.webp",
         title: "Atma Korean Barbeque",
-        type:"Fullstack",
+        type: "Fullstack",
         subTitle: `
              Atma Korean Barbeque merupakan project yang dibuat untuk menyelesaikan tugas akhir dari mata kuliah perancangan perangkat lunak. Project ini merupakan website yang digunakan untuk mengatur berjalannya Atma Korean Barbeque dari perhitungan stock, pemesanan, pembayaran dan laporan bulanan.
               `,
-        framework: "Vue",
+        language: ["Javascript, ", "PHP"],
+        frontend: "Vue",
         css: "Laravel",
         backend: "Laravel",
         database: "MySQL",
-        link:"https://github.com/YeremiaYoga/p3l-frontend.git"
+        link: "https://github.com/YeremiaYoga/p3l-frontend.git"
     },
     {
         id: 2,
         image: "DmsPalindo.webp",
         title: "Document Management System PT Palindo Marine",
-        type:"Fullstack",
+        type: "Fullstack",
         subTitle: `
              Document Management System PT Palindo Marine merupakan project yang dibuat sebagai topik dari Tugas Akhir / Skripsi. Website ini berfungsi sebagai pengaturan dokumen pada PT Palindo Marine untuk berlangsungnya pembuatan project kapal.
               `,
-        framework: "Vue",
+        language: ["Javascript, ", "PHP"],
+        frontend: "Vue",
         css: "Vuetify",
         backend: "Laravel",
         database: "MySQL",
-        link:"https://github.com/YeremiaYoga"
+        link: "https://github.com/YeremiaYoga"
     },
-   
+
     {
         id: 3,
         image: "portoV1.webp",
         title: "Website Portfolio V1",
-        type:"Frontend",
+        type: "Frontend",
         subTitle: `
               portoV1 merupakan website portofolio yang dibuat pertama untuk memberikan informasi dari pembuat.
               `,
-        framework: "React",
+        language: ['Javascript'],
+        frontend: "React",
         css: "Tailwind",
         backend: "-",
         database: "-",
-        link:"https://yays.vercel.app/"
+        link: "https://yays.vercel.app/"
     },
     {
         id: 4,
@@ -50,11 +53,42 @@ const dataProject = [
         subTitle: `
              portoV2 merupakan website portofolio yang dibuat setelah portoV1 untuk memberikan informasi yang lebih lengkap meliputi design, uiux, project dan sertifikat serta tampilan yang lebih sederhana.
               `,
-        framework: "React",
+        language: ['Javascript'],
+        frontend: "React",
         backend: "-",
         css: "Tailwind",
-        database:"-",
-        link:"https://yeremiayoga.vercel.app/"
+        database: "-",
+        link: "https://yeremiayoga.vercel.app/"
+    },
+    {
+        id: 5,
+        image: "bookshelf_api.webp",
+        title: "Bookshelf API",
+        type: "Backend",
+        subTitle: `
+             Backend untuk bookshelf dan beserta testing file yang dapat dites menggunakan menggunakan newman
+              `,
+        language: ['Javascript'],
+        frontend: "-",
+        backend: "Hapi",
+        css: "-",
+        database: "-",
+        link: "https://github.com/YeremiaYoga/Bookshelf_API.git"
+    },
+    {
+        id: 6,
+        image: "film_ane.webp",
+        title: "Film Ane",
+        type: "Frontend",
+        subTitle: `
+             Website film yang dapat menampilkan dan dapat melakukan search film dengan rest API dari www.omdbapi.com
+              `,
+        language: ['Javascript'],
+        frontend: "React",
+        backend: "-",
+        css: "-",
+        database: "-",
+        link: "https://github.com/YeremiaYoga/film_ane.git"
     },
 ]
 export default dataProject;
