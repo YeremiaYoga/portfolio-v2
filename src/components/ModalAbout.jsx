@@ -123,7 +123,7 @@ const ModalAbout = (props) => {
                         );
                       })}
                     </div>
-                    <div className="py-2">
+                    <div className="py-2 xs:ml-4">
                       <p className="text-xl">Design</p>
                       {designContent.map((item) => {
                         return (

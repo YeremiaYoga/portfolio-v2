@@ -13,7 +13,7 @@ const Certif = (props) => {
   return (
     <div className="pb-10 px-5 xl:px-0 flex justify-center">
       <div
-        className="w-[448px]  lg:h-[450px] bg-white rounded overflow-hidden shadow-lg hover:shadow-2xl duration-200 ease-out grid  relative group cursor-pointer"
+        className="w-[340px]  lg:h-[450px] sm:w-[448px] bg-white rounded overflow-hidden shadow-lg hover:shadow-2xl duration-200 ease-out grid  relative group cursor-pointer"
         onClick={() => window.open(certifLink, "_blank")}
       >
         <div className="text-white opacity-0 group-hover:opacity-100 absolute top-1/3 left-1/2 -translate-x-1/2 z-50 hover:ease-in duration-300 text-center">
