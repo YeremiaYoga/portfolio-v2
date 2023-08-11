@@ -90,5 +90,20 @@ const dataProject = [
         database: "-",
         link: "https://github.com/YeremiaYoga/film_ane.git"
     },
+    {
+        id: 7,
+        image: "kasir_app.webp",
+        title: "Kasir App",
+        type: "Fullstack",
+        subTitle: `
+             Website kasir untuk membantu dalam transaksi , menggunakan backend free api json placeholder (file backend ada di src json-server-kasir)
+              `,
+        language: ['Javascript'],
+        frontend: "React",
+        backend: "Json Placeholder",
+        css: "Bootstrap",
+        database: "Json Placeholder",
+        link: "https://github.com/YeremiaYoga/kasir-app-bootstrap.git"
+    },
 ]
 export default dataProject;
