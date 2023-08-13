@@ -8,8 +8,8 @@ const dataProject = [
              Atma Korean Barbeque merupakan project yang dibuat untuk menyelesaikan tugas akhir dari mata kuliah perancangan perangkat lunak. Project ini merupakan website yang digunakan untuk mengatur berjalannya Atma Korean Barbeque dari perhitungan stock, pemesanan, pembayaran dan laporan bulanan.
               `,
         language: ["Javascript, ", "PHP"],
-        frontend: "Vue Js",
-        css: "Laravel",
+        frontend: "Vue.js",
+        css: "Vuetify",
         backend: "Laravel",
         database: "MySQL",
         link: "https://github.com/YeremiaYoga/p3l-frontend.git"
@@ -23,7 +23,7 @@ const dataProject = [
              Document Management System PT Palindo Marine merupakan project yang dibuat sebagai topik dari Tugas Akhir / Skripsi. Website ini berfungsi sebagai pengaturan dokumen pada PT Palindo Marine untuk berlangsungnya pembuatan project kapal.
               `,
         language: ["Javascript, ", "PHP"],
-        frontend: "Vue Js",
+        frontend: "Vue.js",
         css: "Vuetify",
         backend: "Laravel",
         database: "MySQL",
@@ -39,7 +39,7 @@ const dataProject = [
               portoV1 merupakan website portofolio yang dibuat pertama untuk memberikan informasi dari pembuat.
               `,
         language: ['Javascript'],
-        frontend: "React Js",
+        frontend: "React.js",
         css: "Tailwind",
         backend: "-",
         database: "-",
@@ -54,7 +54,7 @@ const dataProject = [
              portoV2 merupakan website portofolio yang dibuat setelah portoV1 untuk memberikan informasi yang lebih lengkap meliputi design, uiux, project dan sertifikat serta tampilan yang lebih sederhana.
               `,
         language: ['Javascript'],
-        frontend: "React Js",
+        frontend: "React.js",
         backend: "-",
         css: "Tailwind",
         database: "-",
@@ -84,7 +84,7 @@ const dataProject = [
              Website film yang dapat menampilkan dan dapat melakukan search film dengan rest API dari www.omdbapi.com
               `,
         language: ['Javascript'],
-        frontend: "React Js",
+        frontend: "React.js",
         backend: "-",
         css: "-",
         database: "-",
@@ -99,10 +99,10 @@ const dataProject = [
              Website kasir untuk membantu dalam transaksi , menggunakan backend free api json placeholder (file backend ada di src json-server-kasir)
               `,
         language: ['Javascript'],
-        frontend: "React Js",
+        frontend: "React.js",
         backend: "Json Placeholder",
         css: "Bootstrap",
-        database: "Json Placeholder",
+        database: "-",
         link: "https://github.com/YeremiaYoga/kasir-app-bootstrap.git"
     },
     {
@@ -114,7 +114,7 @@ const dataProject = [
              Website yang menampilkan film populer dari www.themoviedb.org
               `,
         language: ['Javascript'],
-        frontend: "Next Js",
+        frontend: "Next.js",
         backend: "-",
         css: "Tailwind",
         database: "-",

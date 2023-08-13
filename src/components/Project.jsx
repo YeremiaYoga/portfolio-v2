@@ -1,7 +1,10 @@
 import { useEffect, useState } from "react";
 
 const Project = (props) => {
-  const { projectImage, projectTitle, projectType } = props;
+  const { projectImage, projectTitle, projectFrontend,
+    projectBackend,
+    projectCss,
+    projectDb } = props;
   const [image, setImage] = useState("");
 
   useEffect(() => {
@@ -18,12 +21,57 @@ const Project = (props) => {
         <div className="px-6 py-4 ">
           <p className="font-bold text-xl mb-2">{projectTitle}</p>
           <div className="space-x-1">
-          <span className="py-1 px-2 bg-slate-400 rounded-xl text-white text-xs">{projectType}</span>
+            {projectFrontend !== "-" && (
+              <span
+                className={`py-1 px-2 rounded-xl text-white text-xs ${projectFrontend === "React.js" || projectFrontend === "Next.js"
+                  ? "bg-blue-500"
+                  : projectFrontend === "Vue.js"
+                    ? "bg-green-500"
+                    : "bg-gray-400"
+                  }`}
+              >
+                {projectFrontend}
+              </span>
+            )}
+            {projectBackend !== "-" && (
+              <span
+                className={`py-1 px-2 rounded-xl text-white text-xs ${projectBackend === "Laravel" || projectBackend === "Hapi"
+                  ? "bg-orange-600"
+                  : "bg-gray-400"
+                  }`}
+              >
+                {projectBackend}
+              </span>
+            )}
+            {projectCss !== "-" && (
+              <span
+                className={`py-1 px-2 rounded-xl text-white text-xs ${projectCss === "Tailwind" || "Vuetify"
+                  ? "bg-blue-400"
+                  : projectCss === "Bootstrap"
+                    ? "bg-purple-600"
+                    : "bg-gray-400"
+                  }`}
+              >
+                {projectCss}
+              </span>
+            )}
+            {projectDb !== "-" && (
+              <span
+                className={`py-1 px-2 rounded-xl text-white text-xs ${projectDb === "MySQL"
+                  ? "bg-orange-400"
+                  : projectDb === "MongoDB"
+                    ? "bg-green-600"
+                    : "bg-gray-400"
+                  }`}
+              >
+                {projectDb}
+              </span>
+            )}
           </div>
-         
+
         </div>
-        
-        
+
+
       </div>
     </div>
   );

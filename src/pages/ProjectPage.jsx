@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 import Project from "../components/Project";
 import projectContent from "../data/projectContent";
 import { motion } from "framer-motion";
@@ -28,23 +28,27 @@ const ProjectPage = () => {
             >
               <React.Fragment key={item.id}>
                 <div onClick={() => handleOpen(item)}>
-                <Project
-                  projectImage={item.image}
-                  projectTitle={item.title}
-                  projectType={item.type}
-                />
+                  <Project
+                    projectImage={item.image}
+                    projectTitle={item.title}
+                    projectType={item.type}
+                    projectFrontend={item.frontend}
+                    projectBackend={item.backend}
+                    projectCss={item.css}
+                    projectDb={item.database}
+                  />
                 </div>
-              
+
               </React.Fragment>
             </motion.section>
           );
         })}
       </div>
       {open && (
-        <ModalProject 
-        open={open}
-        onClose={handleClose}
-        detail={detailContent}
+        <ModalProject
+          open={open}
+          onClose={handleClose}
+          detail={detailContent}
 
         />
       )}{" "}
