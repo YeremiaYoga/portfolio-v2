@@ -71,6 +71,14 @@ const dataCertif = [
     publisher:"Dicoding",
     link:`https://www.dicoding.com/certificates/JMZV98YQOPN9`
   },
+  {
+    id: 9,
+    caption: "Dart",
+    image: "DicodingBasicDart.webp",
+    title: "Memulai Pemrograman dengan Dart",
+    publisher:"Dicoding",
+    link:`https://www.dicoding.com/certificates/JLX1W27D5P72`
+  },
 ];
 
 export default dataCertif;
