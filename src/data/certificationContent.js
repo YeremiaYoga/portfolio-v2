@@ -79,6 +79,14 @@ const dataCertif = [
     publisher:"Dicoding",
     link:`https://www.dicoding.com/certificates/JLX1W27D5P72`
   },
+  {
+    id: 10,
+    caption: "HTML",
+    image: "SololearnHTML2.webp",
+    title: "Introduction to HTML",
+    publisher:"Sololearn",
+    link:`https://www.sololearn.com/certificates/CC-KERVH1GD`
+  },
 ];
 
 export default dataCertif;
