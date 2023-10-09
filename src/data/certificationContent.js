@@ -87,6 +87,14 @@ const dataCertif = [
     publisher:"Sololearn",
     link:`https://www.sololearn.com/certificates/CC-KERVH1GD`
   },
+  {
+    id: 11,
+    caption: "CSS",
+    image: "SololearnCSS2.webp",
+    title: "Introduction to CSS",
+    publisher:"Sololearn",
+    link:`https://www.sololearn.com/certificates/CC-S8N8A1RQ`
+  },
 ];
 
 export default dataCertif;
