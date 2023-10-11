@@ -95,6 +95,14 @@ const dataCertif = [
     publisher:"Sololearn",
     link:`https://www.sololearn.com/certificates/CC-S8N8A1RQ`
   },
+  {
+    id: 12,
+    caption: "Responsive Web Design",
+    image: "SololearnResponsiveWebDesign.webp",
+    title: "Responsive Web Design",
+    publisher:"Sololearn",
+    link:`https://www.sololearn.com/certificates/CC-BEN3TD9Q`
+  },
 ];
 
 export default dataCertif;
