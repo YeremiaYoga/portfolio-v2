@@ -103,6 +103,14 @@ const dataCertif = [
     publisher:"Sololearn",
     link:`https://www.sololearn.com/certificates/CC-BEN3TD9Q`
   },
+  {
+    id: 13,
+    caption: "Javascript",
+    image: "SololearnJavascript2.webp",
+    title: "Introduction to Javascript",
+    publisher:"Sololearn",
+    link:`https://www.sololearn.com/certificates/CC-GUMFQNHA`
+  },
 ];
 
 export default dataCertif;
