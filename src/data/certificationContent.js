@@ -107,9 +107,17 @@ const dataCertif = [
     id: 13,
     caption: "Javascript",
     image: "SololearnJavascript2.webp",
-    title: "Introduction to Javascript",
+    title: "Introduction to JavaScript",
     publisher:"Sololearn",
     link:`https://www.sololearn.com/certificates/CC-GUMFQNHA`
+  },
+  {
+    id: 14,
+    caption: "Javascript",
+    image: "SololearnJavascriptIntermediate.webp",
+    title: "JavaScript Intermediate",
+    publisher:"Sololearn",
+    link:`https://www.sololearn.com/certificates/CC-64IACRHY`
   },
 ];
 
