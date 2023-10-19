@@ -120,7 +120,7 @@ const dataCertif = [
     link:`https://www.sololearn.com/certificates/CC-64IACRHY`
   },
   {
-    id: 14,
+    id: 15,
     caption: "Flutter",
     image: "Dicodingflutterpemula.webp",
     title: "Belajar Membuat Aplikasi Flutter untuk Pemula",
