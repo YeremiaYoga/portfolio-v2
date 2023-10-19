@@ -119,6 +119,14 @@ const dataCertif = [
     publisher:"Sololearn",
     link:`https://www.sololearn.com/certificates/CC-64IACRHY`
   },
+  {
+    id: 14,
+    caption: "Flutter",
+    image: "Dicodingflutterpemula.webp",
+    title: "Belajar Membuat Aplikasi Flutter untuk Pemula",
+    publisher:"Dicoding",
+    link:`https://www.dicoding.com/certificates/53XE43309ZRN`
+  },
 ];
 
 export default dataCertif;
