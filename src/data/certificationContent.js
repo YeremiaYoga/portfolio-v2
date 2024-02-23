@@ -127,6 +127,14 @@ const dataCertif = [
     publisher:"Dicoding",
     link:`https://www.dicoding.com/certificates/53XE43309ZRN`
   },
+  {
+    id: 16,
+    caption: "Visualisasi Data",
+    image: "DIcodingDasarVisualisasiData.webp",
+    title: "Belajar Dasar Visualisasi Data",
+    publisher:"Dicoding",
+    link:`https://www.dicoding.com/certificates/81P2VJ74QPOY`
+  },
 ];
 
 export default dataCertif;
