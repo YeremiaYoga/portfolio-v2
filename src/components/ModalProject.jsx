@@ -36,7 +36,9 @@ const ModalProject = (props) => {
                 <p className="text-3xl">{title}</p>
                 <button
                   className="mt-5 text-sm  py-1 px-3  bg-sky-500 hover:text-sky-500 font-semibold text-white border hover:bg-white border-sky-500 rounded"
-                  onClick={() => window.open(link, "_blank")}
+                  onClick={() => window.open(link, "_blank")} 
+
+                  disabled={link === "-"}
                 >
                   Open
                 </button>

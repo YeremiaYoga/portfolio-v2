@@ -4,6 +4,7 @@ import {
   designContent,
   frontendContent,
   backendContent,
+  experienceContent,
 } from "../data/skillContent";
 const ModalAbout = (props) => {
   const { open, onClose } = props;
@@ -51,52 +52,83 @@ const ModalAbout = (props) => {
                   <p>I am Yeremia Adiel Yoga Sasongko</p>
                 </div>
 
-                <div className="pt-5">
+                <div className="pt-5 pb-5">
                   <h1 className="text-2xl pb-3">Education</h1>
                   <div className="grid md:grid-cols-2">
-                  <div className="flex space-x-4 ">
-                    <div>
-                      <img
-                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAA2UlEQVR4nGNgGAVowLp0YoOeb/wfLafA/8g45MBrsnHwgddfgve/7mUgBuj6JWBYTqkDYDhw/xsLgg7QwmI5tRwQcuBV6KgDGHAGvWNgp5ZT4CpCUZB29PX/XQ8//N/78D1eDFKTduwNDRxw7A1tHAADo4lQa6DSgLajv5WWU2DogKUBLafAG7gsHy2ItOiRBmBg5JYDWo6BNwc0EWoTmQ1Hq+OQYdsg0SKyOh6+DoCBUQdoDXQU6NKwYxK87405QQdYl02oxeYIiiw+8PpzyIFX3QQtZxiJAABs9Cdo0Is2rQAAAABJRU5ErkJggg=="
-                        alt=""
-                      />
-                    </div>
-                    <div>
-                      <p className="text-lg">SMA Negeri 1 Sukorejo</p>
-                      <p className="text-slate-400">IPA</p>
-                      <div className="flex space-x-2">
+                    <div className="flex space-x-4 ">
+                      <div>
                         <img
-                          className="w-6"
-                          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAADWUlEQVR4nO1b30sUURTe/yAtqufE9+wfaMN7Z1vvmXXXvXdw9SEpyqIkzRKtfPAlKKIXgwzWSMGi6EFUMvqJaVZ/gvkj01SCLDVzgwRPzMS4o7E6O224M90PDvuw9879ztl7754PvvH5MoRASMsnqlarf2bqmVuxhmNQ4KMUBBImht28hmPoxMxw8xqOIQsAcgegPAIg7wD09CVIIpEdpIirBLRKCrx+bSTJ/fldpiL1GgYnpkEgoG3PeOKFajRCQbygIJbXksjKWCbAnxPGw3+deCCk5VMQg1mQlLNgfIBANM9R8gT4AcrErPWBB4tLsaauEZtvxDF+uyOrQudUXddocFxbBDFLVc2fXvJBvo8A/24+pChShrfa7+L8/AJmO+bm5rG1rQOD4dhqEfRcFKYV2EoeoDyXMD5pTi6rOI6jY+PoNoyMvje4W47DhD8czrGx9cVVcxIvP4LTM5/QrZiansFo7LBlJ4jLGyZfGIrtpsB/mBMGBt+i2/Fy4LV1FyQUpWRXygJQlZ8wB1edaUCv4GRNvbV/OJa6ACB6zIE9vU/QK+h++Dh5DBjv2qAA/J058HpLK9570OmJ0HOx7ICh1AVgfHHLm5d/3xwtbnQE8H8IWwWIZ0F3l8lIuwBegywAyB2A8giAvANQXoIg/wVQ/g2mApV9gJCNEJWdoJCtMJVaQKDXILUASC2AUguA1AIotQBILYBSC6QClVpASC1ApRYQUgtQqQUEeg1SC4DUAii1AGymBZj4Zg5aSiTQK1haSqz++gT4gi2LzMTkFHoF4xOTNi0ykDRJdfU8Qq+gs7vXnkmKGDb43wOras+jF7CysoKnahqSO6BIHLVtlOx/9Qbdjr7+QatBKhEMajtTFkAHZfyKOSFSWmHYTd2Kj1MzRg7J7S8u+TaDPxzO0Y3F5iTdcDw8MoZuw9DwCMYOVVo7wA+Uatt8dqAwrWC9Xf5mvA2/fJ3DbIfOsSXeZnC2egMDULLXlw6oqvnXvzChqBpWn7uI15pbsP3O/S13gJqhc9E5nT57weC4zhj5WWHR/T4nIBDNo0z0b7Wx0WkQxvuUkLbHUfJWUNCKCRPP3PHSFP9JQTxV1GjIl2kAlOdSiDLdck6AN+kvIGRH8Cadk85N55hOUr8AuBdVXy0B/BUAAAAASUVORK5CYII="
+                          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAA2UlEQVR4nGNgGAVowLp0YoOeb/wfLafA/8g45MBrsnHwgddfgve/7mUgBuj6JWBYTqkDYDhw/xsLgg7QwmI5tRwQcuBV6KgDGHAGvWNgp5ZT4CpCUZB29PX/XQ8//N/78D1eDFKTduwNDRxw7A1tHAADo4lQa6DSgLajv5WWU2DogKUBLafAG7gsHy2ItOiRBmBg5JYDWo6BNwc0EWoTmQ1Hq+OQYdsg0SKyOh6+DoCBUQdoDXQU6NKwYxK87405QQdYl02oxeYIiiw+8PpzyIFX3QQtZxiJAABs9Cdo0Is2rQAAAABJRU5ErkJggg=="
                           alt=""
                         />
-                        <p className="text-slate-400">2016 - 2018</p>
+                      </div>
+                      <div>
+                        <p className="text-lg">SMA Negeri 1 Sukorejo</p>
+                        <p className="text-slate-400">IPA</p>
+                        <div className="flex space-x-2">
+                          <img
+                            className="w-6"
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAADWUlEQVR4nO1b30sUURTe/yAtqufE9+wfaMN7Z1vvmXXXvXdw9SEpyqIkzRKtfPAlKKIXgwzWSMGi6EFUMvqJaVZ/gvkj01SCLDVzgwRPzMS4o7E6O224M90PDvuw9879ztl7754PvvH5MoRASMsnqlarf2bqmVuxhmNQ4KMUBBImht28hmPoxMxw8xqOIQsAcgegPAIg7wD09CVIIpEdpIirBLRKCrx+bSTJ/fldpiL1GgYnpkEgoG3PeOKFajRCQbygIJbXksjKWCbAnxPGw3+deCCk5VMQg1mQlLNgfIBANM9R8gT4AcrErPWBB4tLsaauEZtvxDF+uyOrQudUXddocFxbBDFLVc2fXvJBvo8A/24+pChShrfa7+L8/AJmO+bm5rG1rQOD4dhqEfRcFKYV2EoeoDyXMD5pTi6rOI6jY+PoNoyMvje4W47DhD8czrGx9cVVcxIvP4LTM5/QrZiansFo7LBlJ4jLGyZfGIrtpsB/mBMGBt+i2/Fy4LV1FyQUpWRXygJQlZ8wB1edaUCv4GRNvbV/OJa6ACB6zIE9vU/QK+h++Dh5DBjv2qAA/J058HpLK9570OmJ0HOx7ICh1AVgfHHLm5d/3xwtbnQE8H8IWwWIZ0F3l8lIuwBegywAyB2A8giAvANQXoIg/wVQ/g2mApV9gJCNEJWdoJCtMJVaQKDXILUASC2AUguA1AIotQBILYBSC6QClVpASC1ApRYQUgtQqQUEeg1SC4DUAii1AGymBZj4Zg5aSiTQK1haSqz++gT4gi2LzMTkFHoF4xOTNi0ykDRJdfU8Qq+gs7vXnkmKGDb43wOras+jF7CysoKnahqSO6BIHLVtlOx/9Qbdjr7+QatBKhEMajtTFkAHZfyKOSFSWmHYTd2Kj1MzRg7J7S8u+TaDPxzO0Y3F5iTdcDw8MoZuw9DwCMYOVVo7wA+Uatt8dqAwrWC9Xf5mvA2/fJ3DbIfOsSXeZnC2egMDULLXlw6oqvnXvzChqBpWn7uI15pbsP3O/S13gJqhc9E5nT57weC4zhj5WWHR/T4nIBDNo0z0b7Wx0WkQxvuUkLbHUfJWUNCKCRPP3PHSFP9JQTxV1GjIl2kAlOdSiDLdck6AN+kvIGRH8Cadk85N55hOUr8AuBdVXy0B/BUAAAAASUVORK5CYII="
+                            alt=""
+                          />
+                          <p className="text-slate-400">2016 - 2018</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="flex space-x-4">
+                      <div>
+                        <img
+                          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAA2UlEQVR4nGNgGAVowLp0YoOeb/wfLafA/8g45MBrsnHwgddfgve/7mUgBuj6JWBYTqkDYDhw/xsLgg7QwmI5tRwQcuBV6KgDGHAGvWNgp5ZT4CpCUZB29PX/XQ8//N/78D1eDFKTduwNDRxw7A1tHAADo4lQa6DSgLajv5WWU2DogKUBLafAG7gsHy2ItOiRBmBg5JYDWo6BNwc0EWoTmQ1Hq+OQYdsg0SKyOh6+DoCBUQdoDXQU6NKwYxK87405QQdYl02oxeYIiiw+8PpzyIFX3QQtZxiJAABs9Cdo0Is2rQAAAABJRU5ErkJggg=="
+                          alt=""
+                        />
+                      </div>
+                      <div>
+                        <p className="text-lg">
+                          Universitas Atma Jaya Yogyakarta
+                        </p>
+                        <p className="text-slate-400">Informatika</p>
+                        <div className="flex space-x-2">
+                          <img
+                            className="w-6"
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAADWUlEQVR4nO1b30sUURTe/yAtqufE9+wfaMN7Z1vvmXXXvXdw9SEpyqIkzRKtfPAlKKIXgwzWSMGi6EFUMvqJaVZ/gvkj01SCLDVzgwRPzMS4o7E6O224M90PDvuw9879ztl7754PvvH5MoRASMsnqlarf2bqmVuxhmNQ4KMUBBImht28hmPoxMxw8xqOIQsAcgegPAIg7wD09CVIIpEdpIirBLRKCrx+bSTJ/fldpiL1GgYnpkEgoG3PeOKFajRCQbygIJbXksjKWCbAnxPGw3+deCCk5VMQg1mQlLNgfIBANM9R8gT4AcrErPWBB4tLsaauEZtvxDF+uyOrQudUXddocFxbBDFLVc2fXvJBvo8A/24+pChShrfa7+L8/AJmO+bm5rG1rQOD4dhqEfRcFKYV2EoeoDyXMD5pTi6rOI6jY+PoNoyMvje4W47DhD8czrGx9cVVcxIvP4LTM5/QrZiansFo7LBlJ4jLGyZfGIrtpsB/mBMGBt+i2/Fy4LV1FyQUpWRXygJQlZ8wB1edaUCv4GRNvbV/OJa6ACB6zIE9vU/QK+h++Dh5DBjv2qAA/J058HpLK9570OmJ0HOx7ICh1AVgfHHLm5d/3xwtbnQE8H8IWwWIZ0F3l8lIuwBegywAyB2A8giAvANQXoIg/wVQ/g2mApV9gJCNEJWdoJCtMJVaQKDXILUASC2AUguA1AIotQBILYBSC6QClVpASC1ApRYQUgtQqQUEeg1SC4DUAii1AGymBZj4Zg5aSiTQK1haSqz++gT4gi2LzMTkFHoF4xOTNi0ykDRJdfU8Qq+gs7vXnkmKGDb43wOras+jF7CysoKnahqSO6BIHLVtlOx/9Qbdjr7+QatBKhEMajtTFkAHZfyKOSFSWmHYTd2Kj1MzRg7J7S8u+TaDPxzO0Y3F5iTdcDw8MoZuw9DwCMYOVVo7wA+Uatt8dqAwrWC9Xf5mvA2/fJ3DbIfOsSXeZnC2egMDULLXlw6oqvnXvzChqBpWn7uI15pbsP3O/S13gJqhc9E5nT57weC4zhj5WWHR/T4nIBDNo0z0b7Wx0WkQxvuUkLbHUfJWUNCKCRPP3PHSFP9JQTxV1GjIl2kAlOdSiDLdck6AN+kvIGRH8Cadk85N55hOUr8AuBdVXy0B/BUAAAAASUVORK5CYII="
+                            alt=""
+                          />
+                          <p className="text-slate-400">2018 - 2022</p>
+                        </div>
                       </div>
                     </div>
                   </div>
-                  <div className="flex space-x-4">
-                    <div>
-                      <img
-                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAA2UlEQVR4nGNgGAVowLp0YoOeb/wfLafA/8g45MBrsnHwgddfgve/7mUgBuj6JWBYTqkDYDhw/xsLgg7QwmI5tRwQcuBV6KgDGHAGvWNgp5ZT4CpCUZB29PX/XQ8//N/78D1eDFKTduwNDRxw7A1tHAADo4lQa6DSgLajv5WWU2DogKUBLafAG7gsHy2ItOiRBmBg5JYDWo6BNwc0EWoTmQ1Hq+OQYdsg0SKyOh6+DoCBUQdoDXQU6NKwYxK87405QQdYl02oxeYIiiw+8PpzyIFX3QQtZxiJAABs9Cdo0Is2rQAAAABJRU5ErkJggg=="
-                        alt=""
-                      />
-                    </div>
-                    <div>
-                      <p className="text-lg">Universitas Atma Jaya Yogyakarta</p>
-                      <p className="text-slate-400">Informatika</p>
-                      <div className="flex space-x-2">
-                        <img
-                          className="w-6"
-                          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAADWUlEQVR4nO1b30sUURTe/yAtqufE9+wfaMN7Z1vvmXXXvXdw9SEpyqIkzRKtfPAlKKIXgwzWSMGi6EFUMvqJaVZ/gvkj01SCLDVzgwRPzMS4o7E6O224M90PDvuw9879ztl7754PvvH5MoRASMsnqlarf2bqmVuxhmNQ4KMUBBImht28hmPoxMxw8xqOIQsAcgegPAIg7wD09CVIIpEdpIirBLRKCrx+bSTJ/fldpiL1GgYnpkEgoG3PeOKFajRCQbygIJbXksjKWCbAnxPGw3+deCCk5VMQg1mQlLNgfIBANM9R8gT4AcrErPWBB4tLsaauEZtvxDF+uyOrQudUXddocFxbBDFLVc2fXvJBvo8A/24+pChShrfa7+L8/AJmO+bm5rG1rQOD4dhqEfRcFKYV2EoeoDyXMD5pTi6rOI6jY+PoNoyMvje4W47DhD8czrGx9cVVcxIvP4LTM5/QrZiansFo7LBlJ4jLGyZfGIrtpsB/mBMGBt+i2/Fy4LV1FyQUpWRXygJQlZ8wB1edaUCv4GRNvbV/OJa6ACB6zIE9vU/QK+h++Dh5DBjv2qAA/J058HpLK9570OmJ0HOx7ICh1AVgfHHLm5d/3xwtbnQE8H8IWwWIZ0F3l8lIuwBegywAyB2A8giAvANQXoIg/wVQ/g2mApV9gJCNEJWdoJCtMJVaQKDXILUASC2AUguA1AIotQBILYBSC6QClVpASC1ApRYQUgtQqQUEeg1SC4DUAii1AGymBZj4Zg5aSiTQK1haSqz++gT4gi2LzMTkFHoF4xOTNi0ykDRJdfU8Qq+gs7vXnkmKGDb43wOras+jF7CysoKnahqSO6BIHLVtlOx/9Qbdjr7+QatBKhEMajtTFkAHZfyKOSFSWmHYTd2Kj1MzRg7J7S8u+TaDPxzO0Y3F5iTdcDw8MoZuw9DwCMYOVVo7wA+Uatt8dqAwrWC9Xf5mvA2/fJ3DbIfOsSXeZnC2egMDULLXlw6oqvnXvzChqBpWn7uI15pbsP3O/S13gJqhc9E5nT57weC4zhj5WWHR/T4nIBDNo0z0b7Wx0WkQxvuUkLbHUfJWUNCKCRPP3PHSFP9JQTxV1GjIl2kAlOdSiDLdck6AN+kvIGRH8Cadk85N55hOUr8AuBdVXy0B/BUAAAAASUVORK5CYII="
-                          alt=""
-                        />
-                        <p className="text-slate-400">2018 - 2022</p>
+                </div>
+                <div clasName="pt-5">
+                  <h1 className="text-2xl pb-3">Experience</h1>
+                  {experienceContent.map((item) => {
+                    return (
+                      <div key={item.id} className="py-2">
+                        <div className="flex space-x-4 justify-between ">
+                          <div className="flex space-x-4">
+                            <div>
+                              <img
+                              className="w-8"
+                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA2UlEQVR4nO2YQQrEIAxF//06p1Y80yxTuhDKMGCtSarpf5CFG+szMRYBQkgvBYAYRYYjYhzuItpQ5C7MiPIGldFmMUtGZLRZzCZS6W7nK4mI5gfvLuzqRVxpjacRae34ciIVijz9r6WekWwokTxFrmAxKUXCZaQ4HHDryGez1QMqp/9BJKyILB6wvAC9Iv1NkWc5WMwhFOknfEY+AL4/9X+Mt9VENk0R15ZpsBkIJ+JBOBGxyKpQpJ9wpTWCUEQR3uwnWFqa8LC/6mbPjUdmTbTeCZLTegl62QHDAMWzLPsiBAAAAABJRU5ErkJggg=="
+                                alt=""
+                              />
+                            </div>
+                            <div>
+                              <p className="text-lg">{item.perusahaan} </p>
+                              <p className="text-slate-400">
+                                {item.jabatan} - {item.jenis}
+                              </p>
+                            </div>
+                          </div>
+                          <div className="flex space-x-2">
+                            <p className="text-slate-400">
+                              {item.mulai_kerja} - {item.akhir_kerja}
+                            </p>
+                          </div>
+                        </div>
                       </div>
-                    </div>
-                  </div>
-                  </div>
-
-                 
+                    );
+                  })}
                 </div>
                 <div className="pt-5">
                   <h1 className="text-2xl ">Skill</h1>

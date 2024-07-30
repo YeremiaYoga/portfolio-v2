@@ -5,8 +5,7 @@ const dataProject = [
         title: "Atma Korean Barbeque",
         type: "Fullstack",
         subTitle: `
-             Atma Korean Barbeque merupakan project yang dibuat untuk menyelesaikan tugas akhir dari mata kuliah perancangan perangkat lunak. Project ini merupakan website yang digunakan untuk mengatur berjalannya Atma Korean Barbeque dari perhitungan stock, pemesanan, pembayaran dan laporan bulanan.
-              `,
+             Atma Korean Barbeque is a project created for a Software Design course final assignment. This website efficiently manages stock inventory, order processing, payments, and monthly reporting for Atma Korean Barbeque, enhancing operational efficiency and user experience.`,
         language: ["Javascript, ", "PHP"],
         frontend: "Vue.js",
         css: "Vuetify",
@@ -20,8 +19,7 @@ const dataProject = [
         title: "Document Management System PT Palindo Marine",
         type: "Fullstack",
         subTitle: `
-             Document Management System PT Palindo Marine merupakan project yang dibuat sebagai topik dari Tugas Akhir / Skripsi. Website ini berfungsi sebagai pengaturan dokumen pada PT Palindo Marine untuk berlangsungnya pembuatan project kapal.
-              `,
+             Document Management System for PT Palindo Marine is a project developed as the topic for a final thesis. This website facilitates the organization and management of documents essential for the shipbuilding projects at PT Palindo Marine.`,
         language: ["Javascript, ", "PHP"],
         frontend: "Vue.js",
         css: "Vuetify",
@@ -36,8 +34,7 @@ const dataProject = [
         title: "Website Portfolio V1",
         type: "Frontend",
         subTitle: `
-              portoV1 merupakan website portofolio yang dibuat pertama untuk memberikan informasi dari pembuat.
-              `,
+              PortoV1 is the first portfolio website I created to showcase information about myself.`,
         language: ['Javascript'],
         frontend: "React.js",
         css: "Tailwind",
@@ -51,8 +48,7 @@ const dataProject = [
         title: "Website Portfolio V2",
         type: "Frontend",
         subTitle: `
-             portoV2 merupakan website portofolio yang dibuat setelah portoV1 untuk memberikan informasi yang lebih lengkap meliputi design, uiux, project dan sertifikat serta tampilan yang lebih sederhana.
-              `,
+             PortoV2 is a portfolio website developed after PortoV1 to provide more comprehensive information. It includes detailed sections on design, UI/UX, projects, and certifications, all presented in a more streamlined and simple layout.`,
         language: ['Javascript'],
         frontend: "React.js",
         backend: "-",
@@ -66,8 +62,7 @@ const dataProject = [
         title: "Bookshelf API",
         type: "Backend",
         subTitle: `
-             Backend untuk bookshelf dan beserta testing file yang dapat dites menggunakan menggunakan newman
-              `,
+             This project includes the backend for a Bookshelf application and testing files compatible with Newman.`,
         language: ['Javascript'],
         frontend: "-",
         backend: "Hapi",
@@ -81,7 +76,7 @@ const dataProject = [
         title: "Film Ane",
         type: "Frontend",
         subTitle: `
-             Website film yang dapat menampilkan dan dapat melakukan search film dengan rest API dari www.omdbapi.com
+             A film website that displays and searches movies using the REST API from www.omdbapi.com
               `,
         language: ['Javascript'],
         frontend: "React.js",
@@ -96,8 +91,7 @@ const dataProject = [
         title: "Kasir App",
         type: "Fullstack",
         subTitle: `
-             Website kasir untuk membantu dalam transaksi , menggunakan backend free api json placeholder (file backend ada di src json-server-kasir)
-              `,
+             A cashier website designed to facilitate transactions, using a backend provided by the free JSON Placeholder API (backend files are located in src/json-server-kasir).`,
         language: ['Javascript'],
         frontend: "React.js",
         backend: "Json Placeholder",
@@ -111,7 +105,7 @@ const dataProject = [
         title: "Film Bouz",
         type: "Frontend",
         subTitle: `
-             Website yang menampilkan film populer dari www.themoviedb.org
+             A website that displays popular films using data from www.themoviedb.org
               `,
         language: ['Javascript'],
         frontend: "Next.js",
@@ -119,6 +113,36 @@ const dataProject = [
         css: "Tailwind",
         database: "-",
         link: "https://github.com/YeremiaYoga/next-moviedb.git"
+    },
+    {
+        id: 9,
+        image: "image_ai_gen.webp",
+        title: "Ai Image Generator",
+        type: "Fullstack",
+        subTitle: `
+             A website that generates images based on user commands with the help of AI, utilizing OpenAI's API.
+              `,
+        language: ['Javascript'],
+        frontend: "React.js",
+        backend: "Express.js",
+        css: "Tailwind",
+        database: "MongoDb",
+        link: "-"
+    },
+    {
+        id: 10,
+        image: "anim.webp",
+        title: "Anim",
+        type: "Frontend",
+        subTitle: `
+             A website that showcases popular anime series and movies.
+              `,
+        language: ['Javascript'],
+        frontend: "Next.js",
+        backend: "Express.js",
+        css: "Tailwind",
+        database: "-",
+        link: "https://github.com/YeremiaYoga/anim.git"
     },
 ]
 export default dataProject;

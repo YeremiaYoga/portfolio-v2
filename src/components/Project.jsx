@@ -37,6 +37,8 @@ const Project = (props) => {
               <span
                 className={`py-1 px-2 rounded-xl text-white text-xs ${projectBackend === "Laravel" || projectBackend === "Hapi"
                   ? "bg-orange-600"
+                  : projectBackend === "Express.js"
+                  ? "bg-blue-800"
                   : "bg-gray-400"
                   }`}
               >
@@ -59,8 +61,8 @@ const Project = (props) => {
               <span
                 className={`py-1 px-2 rounded-xl text-white text-xs ${projectDb === "MySQL"
                   ? "bg-orange-400"
-                  : projectDb === "MongoDB"
-                    ? "bg-green-600"
+                  : projectDb === "MongoDb"
+                    ? "bg-blue-600"
                     : "bg-gray-400"
                   }`}
               >
