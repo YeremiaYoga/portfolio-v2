@@ -42,13 +42,11 @@ const HomePage = () => {
             Yeremia Yoga
           </h1>
           <p className="text-center text-2xl text-thin py-5">
-            Web Developer & Design
+            Programmer & Design
           </p>
           <div className="flex justify-center space-x-5">
-            <button className="text-base  py-3 px-8  hover:bg-sky-500 text-sky-500 font-semibold hover:text-white border border-sky-500 rounded">
-              Contact Me
-            </button>
-            <a href="https://drive.google.com/file/d/1p_FaBIr8R5vgYKsaNGH9PsBv0vFpUwVR/view?usp=sharing" target="_blank" rel="noreferrer">
+        
+            <a href="https://drive.google.com/file/d/1MRARaoDzmGyZwaiPV3uEIXCrJg4_PyCs/view?usp=sharing" target="_blank" rel="noreferrer">
               <button className="text-base py-3 px-8  hover:bg-sky-500 text-sky-500 font-semibold hover:text-white border border-sky-500 rounded">
                 Download Resume
               </button>
