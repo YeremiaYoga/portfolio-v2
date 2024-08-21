@@ -1,10 +1,16 @@
 import { useEffect, useState } from "react";
 
 const Project = (props) => {
-  const { projectImage, projectTitle, projectFrontend,
+  const {
+    projectImage,
+    projectTitle,
+    projectFrontend,
+    projectKategori,
     projectBackend,
     projectCss,
-    projectDb } = props;
+    projectDb,
+    projectSoftware,
+  } = props;
   const [image, setImage] = useState("");
 
   useEffect(() => {
@@ -19,61 +25,78 @@ const Project = (props) => {
           <img className="rounded border-b-2" src={image} alt="" />
         </div>
         <div className="px-6 py-4 ">
-          <p className="font-bold text-xl mb-2">{projectTitle}</p>
+          <p className="font-bold text-xl mb-1">{projectTitle}</p>
+          <p className="text-base mb-2 text-gray-400">{projectKategori}</p>
           <div className="space-x-1">
             {projectFrontend !== "-" && (
               <span
-                className={`py-1 px-2 rounded-xl text-white text-xs ${projectFrontend === "React.js" || projectFrontend === "Next.js"
-                  ? "bg-blue-500"
-                  : projectFrontend === "Vue.js"
+                className={`py-1 px-2 rounded-xl text-white text-xs ${
+                  projectFrontend === "React.js" ||
+                  projectFrontend === "Next.js"
+                    ? "bg-blue-500"
+                    : projectFrontend === "Vue.js"
                     ? "bg-green-500"
                     : "bg-gray-400"
-                  }`}
+                }`}
               >
                 {projectFrontend}
               </span>
             )}
             {projectBackend !== "-" && (
               <span
-                className={`py-1 px-2 rounded-xl text-white text-xs ${projectBackend === "Laravel" || projectBackend === "Hapi"
-                  ? "bg-orange-600"
-                  : projectBackend === "Express.js"
-                  ? "bg-blue-800"
-                  : "bg-gray-400"
-                  }`}
+                className={`py-1 px-2 rounded-xl text-white text-xs ${
+                  projectBackend === "Laravel" || projectBackend === "Hapi"
+                    ? "bg-orange-600"
+                    : projectBackend === "Express.js"
+                    ? "bg-blue-800"
+                    : "bg-gray-400"
+                }`}
               >
                 {projectBackend}
               </span>
             )}
             {projectCss !== "-" && (
               <span
-                className={`py-1 px-2 rounded-xl text-white text-xs ${projectCss === "Tailwind" || "Vuetify"
-                  ? "bg-blue-400"
-                  : projectCss === "Bootstrap"
+                className={`py-1 px-2 rounded-xl text-white text-xs ${
+                  projectCss === "Tailwind" || "Vuetify"
+                    ? "bg-blue-400"
+                    : projectCss === "Bootstrap"
                     ? "bg-purple-600"
                     : "bg-gray-400"
-                  }`}
+                }`}
               >
                 {projectCss}
               </span>
             )}
             {projectDb !== "-" && (
               <span
-                className={`py-1 px-2 rounded-xl text-white text-xs ${projectDb === "MySQL"
-                  ? "bg-orange-400"
-                  : projectDb === "MongoDb"
+                className={`py-1 px-2 rounded-xl text-white text-xs ${
+                  projectDb === "MySQL"
+                    ? "bg-orange-400"
+                    : projectDb === "MongoDb"
                     ? "bg-blue-600"
                     : "bg-gray-400"
-                  }`}
+                }`}
               >
                 {projectDb}
               </span>
             )}
+
+            {projectKategori === "Game" && (
+              <span
+                className={`py-1 px-2 rounded-xl text-white text-xs ${
+                  projectSoftware === "Godot" 
+                    ? "bg-blue-500"
+                    : projectSoftware === "Unity"
+                    ? "bg-black"
+                    : "bg-gray-400"
+                }`}
+              >
+                {projectSoftware}
+              </span>
+            )}
           </div>
-
         </div>
-
-
       </div>
     </div>
   );

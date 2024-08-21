@@ -1,20 +1,37 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
 const ModalProject = (props) => {
   const { open, onClose, detail = {} } = props;
 
-  const { title, subTitle, language, frontend, css, backend, database, link } = detail;
+  const {
+    title,
+    subTitle,
+    language,
+    frontend,
+    css,
+    backend,
+    database,
+    link,
+    image,
+  } = detail;
 
   //   const [images, setImages] = useState([]);
 
   const handleClose = () => {
     onClose?.();
   };
+  const [detailImage, setDetailImage] = useState("");
+  useEffect(() => {
+    import("../assets/project/" + image).then((i) => {
+      setDetailImage(i.default);
+    });
+  }, [image]);
   return (
     <div
-      className={`z-50 top-0 fixed right-0 ${open ? "block" : "hidden"
-        }  w-screen`}
+      className={`z-50 top-0 fixed right-0 ${
+        open ? "block" : "hidden"
+      }  w-screen`}
     >
       <div className="flex">
         <div
@@ -36,8 +53,7 @@ const ModalProject = (props) => {
                 <p className="text-3xl">{title}</p>
                 <button
                   className="mt-5 text-sm  py-1 px-3  bg-sky-500 hover:text-sky-500 font-semibold text-white border hover:bg-white border-sky-500 rounded"
-                  onClick={() => window.open(link, "_blank")} 
-
+                  onClick={() => window.open(link, "_blank")}
                   disabled={link === "-"}
                 >
                   Open
@@ -51,6 +67,9 @@ const ModalProject = (props) => {
                   onClick={handleClose}
                 ></ion-icon>
               </div>
+            </div>
+            <div className="mb-2">
+              <img className="px-14 md:px-12 rounded-md" src={detailImage} alt="" />
             </div>
             <div className="sm:flex px-14 md:px-12  justify-between">
               <p className="sm:w-7/12">{subTitle}</p>

@@ -32,6 +32,8 @@ const ProjectPage = () => {
                     projectImage={item.image}
                     projectTitle={item.title}
                     projectType={item.type}
+                    projectKategori={item.kategori}
+                    projectSoftware={item.software}
                     projectFrontend={item.frontend}
                     projectBackend={item.backend}
                     projectCss={item.css}
