@@ -1,17 +1,31 @@
 import { useEffect, useState } from "react";
-
+import "../App.css";
 const Project = (props) => {
   const {
     projectImage,
     projectTitle,
-    projectFrontend,
     projectKategori,
-    projectBackend,
-    projectCss,
-    projectDb,
-    projectSoftware,
+    projectTeknologi,
   } = props;
   const [image, setImage] = useState("");
+
+  const validClasses = [
+  "Vue",
+  "React",
+  "React_Native",
+  "Next",
+  "Laravel",
+  "Hapi",
+  "Express",
+  "Vuetify",
+  "Tailwind",
+  "Nativewind",
+  "Bootstrap",
+  "MySQL",
+  "Godot",
+  "Unity",
+  "MongoDb"
+];
 
   useEffect(() => {
     import("../assets/project/" + projectImage).then((i) => {
@@ -19,7 +33,7 @@ const Project = (props) => {
     });
   }, [projectImage]);
   return (
-    <div className="pb-10 flex justify-center ">
+    <div className="pb-10 flex justify-center mx-2">
       <div className="max-w-md bg-white rounded overflow-hidden shadow-lg hover:shadow-2xl duration-200 ease-out grid place-content-center relative group cursor-pointer ">
         <div>
           <img className="rounded border-b-2" src={image} alt="" />
@@ -27,7 +41,22 @@ const Project = (props) => {
         <div className="px-6 py-4 ">
           <p className="font-bold text-xl mb-1">{projectTitle}</p>
           <p className="text-base mb-2 text-gray-400">{projectKategori}</p>
+          {}
           <div className="space-x-1">
+            {projectTeknologi.map((item) => {
+              return (
+                <span
+                  className={`py-1 px-2 rounded-xl text-white text-xs ${
+                    validClasses.includes(item) ? item : "bg-gray-400"
+                  }`}
+                >
+                  {item.replace(/_/g, ' ')}
+                </span>
+              );
+            })}
+          </div>
+
+          {/* <div className="space-x-1">
             {projectFrontend !== "-" && (
               <span
                 className={`py-1 px-2 rounded-xl text-white text-xs ${
@@ -95,11 +124,10 @@ const Project = (props) => {
                 {projectSoftware}
               </span>
             )}
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
   );
 };
-
 export default Project;

@@ -7,15 +7,28 @@ const ModalProject = (props) => {
   const {
     title,
     subTitle,
-    language,
-    frontend,
-    css,
-    backend,
-    database,
     link,
     image,
+    teknologi
   } = detail;
 
+  const validClasses = [
+    "Vue",
+    "React",
+    "React_Native",
+    "Next",
+    "Laravel",
+    "Hapi",
+    "Express",
+    "Vuetify",
+    "Tailwind",
+    "Nativewind",
+    "Bootstrap",
+    "MySQL",
+    "Godot",
+    "Unity",
+    "MongoDb"
+  ];
   //   const [images, setImages] = useState([]);
 
   const handleClose = () => {
@@ -69,16 +82,28 @@ const ModalProject = (props) => {
               </div>
             </div>
             <div className="mb-2">
-              <img className="px-14 md:px-12 rounded-md" src={detailImage} alt="" />
+              <img
+                className="px-14 md:px-12 rounded-md"
+                src={detailImage}
+                alt=""
+              />
             </div>
             <div className="sm:flex px-14 md:px-12  justify-between">
               <p className="sm:w-7/12">{subTitle}</p>
               <div className="sm:w-4/12 pt-5 sm:pt-0 space-y-1">
-                <p className=" text-slate-500">Language: {language}</p>
-                <p className=" text-slate-500">Frontend: {frontend}</p>
-                <p className=" text-slate-500">Backend: {backend}</p>
-                <p className=" text-slate-500">Css Framework: {css}</p>
-                <p className=" text-slate-500">Database: {database}</p>
+                <div className="space-x-1 grid grid-cols-3">
+                  {teknologi.map((item) => {
+                    return (
+                      <span
+                        className={`mt-2 text-center py-1 px-2 rounded-xl text-white text-sm ${
+                          validClasses.includes(item) ? item : "bg-gray-400"
+                        }`}
+                      >
+                        {item.replace(/_/g, " ")}
+                      </span>
+                    );
+                  })}
+                </div>
               </div>
             </div>
             {/* <div className="px-12 pt-12 pb-16">

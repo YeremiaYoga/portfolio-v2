@@ -5,14 +5,10 @@ const dataProject = [
         title: "Atma Korean Barbeque",
         type: "Fullstack",
         kategori:"Website",
-        software:"Visual Studio Code",
+        teknologi:["Vue","Vuetify","Laravel","MySQL"],
         subTitle: `
              Atma Korean Barbeque is a project created for a Software Design course final assignment. This website efficiently manages stock inventory, order processing, payments, and monthly reporting for Atma Korean Barbeque, enhancing operational efficiency and user experience.`,
         language: ["Javascript, ", "PHP"],
-        frontend: "Vue.js",
-        css: "Vuetify",
-        backend: "Laravel",
-        database: "MySQL",
         link: "https://github.com/YeremiaYoga/p3l-frontend.git"
     },
     {
@@ -21,14 +17,10 @@ const dataProject = [
         title: "Document Management System PT Palindo Marine",
         type: "Fullstack",
         kategori:"Website",
-        software:"Visual Studio Code",
+        teknologi:["Vue","Vuetify","Laravel","MySQL"],
         subTitle: `
              Document Management System for PT Palindo Marine is a project developed as the topic for a final thesis. This website facilitates the organization and management of documents essential for the shipbuilding projects at PT Palindo Marine.`,
         language: ["Javascript, ", "PHP"],
-        frontend: "Vue.js",
-        css: "Vuetify",
-        backend: "Laravel",
-        database: "MySQL",
         link: "https://github.com/YeremiaYoga"
     },
 
@@ -38,14 +30,11 @@ const dataProject = [
         title: "Website Portfolio V1",
         type: "Frontend",
         kategori:"Website",
+        teknologi:["React","Tailwind"],
         software:"Visual Studio Code",
         subTitle: `
               PortoV1 is the first portfolio website I created to showcase information about myself.`,
         language: ['Javascript'],
-        frontend: "React.js",
-        css: "Tailwind",
-        backend: "-",
-        database: "-",
         link: "https://yays.vercel.app/"
     },
     {
@@ -54,14 +43,11 @@ const dataProject = [
         title: "Website Portfolio V2",
         type: "Frontend",
         kategori:"Website",
+        teknologi:["React","Tailwind"],
         software:"Visual Studio Code",
         subTitle: `
              PortoV2 is a portfolio website developed after PortoV1 to provide more comprehensive information. It includes detailed sections on design, UI/UX, projects, and certifications, all presented in a more streamlined and simple layout.`,
         language: ['Javascript'],
-        frontend: "React.js",
-        backend: "-",
-        css: "Tailwind",
-        database: "-",
         link: "https://yeremiayoga.vercel.app/"
     },
     {
@@ -70,14 +56,11 @@ const dataProject = [
         title: "Bookshelf API",
         type: "Backend",
         kategori:"Website",
+        teknologi:["Hapi"],
         software:"Visual Studio Code",
         subTitle: `
              This project includes the backend for a Bookshelf application and testing files compatible with Newman.`,
         language: ['Javascript'],
-        frontend: "-",
-        backend: "Hapi",
-        css: "-",
-        database: "-",
         link: "https://github.com/YeremiaYoga/Bookshelf_API.git"
     },
     {
@@ -86,15 +69,12 @@ const dataProject = [
         title: "Film Ane",
         type: "Frontend",
         kategori:"Website",
+        teknologi:["React"],
         software:"Visual Studio Code",
         subTitle: `
              A film website that displays and searches movies using the REST API from www.omdbapi.com
               `,
         language: ['Javascript'],
-        frontend: "React.js",
-        backend: "-",
-        css: "-",
-        database: "-",
         link: "https://github.com/YeremiaYoga/film_ane.git"
     },
     {
@@ -103,14 +83,11 @@ const dataProject = [
         title: "Kasir App",
         type: "Fullstack",
         kategori:"Website",
+        teknologi:["React","Json_Placeholder","Bootstrap"],
         software:"Visual Studio Code",
         subTitle: `
              A cashier website designed to facilitate transactions, using a backend provided by the free JSON Placeholder API (backend files are located in src/json-server-kasir).`,
         language: ['Javascript'],
-        frontend: "React.js",
-        backend: "Json Placeholder",
-        css: "Bootstrap",
-        database: "-",
         link: "https://github.com/YeremiaYoga/kasir-app-bootstrap.git"
     },
     {
@@ -119,15 +96,12 @@ const dataProject = [
         title: "Film Bouz",
         type: "Frontend",
         kategori:"Website",
+        teknologi:["Next","Tailwind"],
         software:"Visual Studio Code",
         subTitle: `
              A website that displays popular films using data from www.themoviedb.org
               `,
         language: ['Javascript'],
-        frontend: "Next.js",
-        backend: "-",
-        css: "Tailwind",
-        database: "-",
         link: "https://github.com/YeremiaYoga/next-moviedb.git"
     },
     {
@@ -136,15 +110,12 @@ const dataProject = [
         title: "Ai Image Generator",
         type: "Fullstack",
         kategori:"Website",
+        teknologi:["React","Express","Tailwind","MongoDb"],
         software:"Visual Studio Code",
         subTitle: `
              A website that generates images based on user commands with the help of AI, utilizing OpenAI's API.
               `,
         language: ['Javascript'],
-        frontend: "React.js",
-        backend: "Express.js",
-        css: "Tailwind",
-        database: "MongoDb",
         link: "-"
     },
     {
@@ -153,15 +124,12 @@ const dataProject = [
         title: "Anim",
         type: "Frontend",
         kategori:"Website",
+        teknologi:["Next","Express","Tailwind"],
         software:"Visual Studio Code",
         subTitle: `
              A website that showcases popular anime series and movies.
               `,
         language: ['Javascript'],
-        frontend: "Next.js",
-        backend: "Express.js",
-        css: "Tailwind",
-        database: "-",
         link: "https://github.com/YeremiaYoga/anim.git"
     },
     {
@@ -170,15 +138,12 @@ const dataProject = [
         title: "Ngejump",
         type: "Game",
         kategori:"Game",
-        software:"Godot",
+        teknologi:["Godot","GDscript"],
+
         subTitle: `
              My first 2D game, built with Godot, is an exciting jumping adventure where the main objective is to collect as many coins as possible. With each jump, the challenge intensifies, making it a fun and engaging experience for players.
               `,
         language: ['GDscript'],
-        frontend: "-",
-        backend: "-",
-        css: "-",
-        database: "-",
         link: "https://drive.google.com/file/d/1xQReK0uDWM48t7Ia0fn6HFE3-qy3OGr8/view?usp=sharing"
     },
 ]

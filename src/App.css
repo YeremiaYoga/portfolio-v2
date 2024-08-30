@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+
+
+.Vue{
+  background-color: #42b883;
+}
+
+.React,.React_Native{
+  background-color: #61dbfb;
+}
+
+.Next{
+  background-color: #000000;
+}
+
+.Laravel,.Hapi{
+  background-color: #f05340;
+}
+
+.Express,.Vuetify{
+  background-color: #00b1dd;
+}
+
+.Tailwind,.Nativewind{
+  background-color: #00cbfd;
+}
+
+.Bootstrap{
+  background-color: #563d7c;
+}
+
+.MySQL{
+  background-color: #f29111;
+}
+
+.MongoDb{
+  background-color: #28c900;
+}
+
+
+.Godot{
+  background-color: #00cbfd;
+}
+.Unity{
+  background-color: #000000;
+}
