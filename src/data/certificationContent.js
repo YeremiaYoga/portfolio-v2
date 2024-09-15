@@ -130,7 +130,7 @@ const dataCertif = [
   {
     id: 16,
     caption: "Visualisasi Data",
-    image: "DicodingDasarVisualisasiData.webp",
+    image: "DicodingVisualisasiData.webp",
     title: "Belajar Dasar Visualisasi Data",
     publisher:"Dicoding",
     link:`https://www.dicoding.com/certificates/81P2VJ74QPOY`
