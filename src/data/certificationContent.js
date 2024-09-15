@@ -130,10 +130,26 @@ const dataCertif = [
   {
     id: 16,
     caption: "Visualisasi Data",
-    image: "DIcodingDasarVisualisasiData.webp",
+    image: "DicodingDasarVisualisasiData.webp",
     title: "Belajar Dasar Visualisasi Data",
     publisher:"Dicoding",
     link:`https://www.dicoding.com/certificates/81P2VJ74QPOY`
+  },
+  {
+    id: 17,
+    caption: "SQL",
+    image: "SololearnSQL.webp",
+    title: "Introduction to SQL",
+    publisher:"Sololearn",
+    link:`https://www.sololearn.com/certificates/CC-QJPGD7Q6`
+  },
+  {
+    id: 18,
+    caption: "C#",
+    image: "SololearnCsharp.webp",
+    title: "Introduction to C#",
+    publisher:"Sololearn",
+    link:`https://www.sololearn.com/certificates/CC-RJUCLMKP`
   },
 ];
 
