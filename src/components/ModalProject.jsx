@@ -91,7 +91,7 @@ const ModalProject = (props) => {
             <div className="sm:flex px-14 md:px-12  justify-between">
               <p className="sm:w-7/12">{subTitle}</p>
               <div className="sm:w-4/12 pt-5 sm:pt-0 space-y-1">
-                <div className="space-x-1 grid grid-cols-3">
+                <div className="space-x-1 grid grid-cols-2">
                   {teknologi.map((item) => {
                     return (
                       <span

@@ -146,5 +146,18 @@ const dataProject = [
         language: ['GDscript'],
         link: "https://drive.google.com/file/d/1xQReK0uDWM48t7Ia0fn6HFE3-qy3OGr8/view?usp=sharing"
     },
+    {
+        id: 12,
+        image: "rn_nons.webp",
+        title: "Nons",
+        type: "Mobile App",
+        kategori:"Mobile App",
+        teknologi:["React_Native","AppWrite","NativeWind"],
+
+        subTitle: `Nons is a React Native app with Appwrite as the backend and data storage. It lets users upload and share videos, while registered users can watch videos uploaded by others.
+              `,
+        language: ['Javascript'],
+        link: "https://github.com/YeremiaYoga/react_native_nons"
+    },
 ]
 export default dataProject;
